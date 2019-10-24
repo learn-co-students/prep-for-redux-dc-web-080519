@@ -21,3 +21,16 @@ Take a look at the current component structure. `App` renders a div with two chi
 When lecture begins be prepared to discuss and summarize what you had to do in order to implement this change and why you had to do it.
 
 While this code is all written in the same file for demonstration purposes, your solution should follow normal React practices.
+
+```text
+App (div)
+|
+|--Header (header)
+|
+|--Counter (div)
+|  |--counter (h1)
+|  |--minus (btn)
+|  |--add (btn)
+|  |--description (h3)
+|
+```
